@@ -1,0 +1,17 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 columns with fixed width */
+
+  gap: 20px; /* Adjust the gap between grid cells */
+  max-width: 1000px; /* Add a max-width to the grid */
+  margin: 0 auto; /* Center the grid horizontally */
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}

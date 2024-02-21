@@ -4,7 +4,10 @@ function Card({ painterName, date, imageUrl }) {
   return (
     <>
       <div className="card">
-        <img src={imageUrl} alt={painterName} />
+        <div className="img-container">
+          <img src={imageUrl} alt={painterName} />
+        </div>
+
         <div className="card-info">
           <h2>{painterName}</h2>
           <p>{date}</p>

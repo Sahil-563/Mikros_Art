@@ -39,7 +39,7 @@ export default function App() {
             dynamicBullets: true,
           }}
           modules={[Pagination, Autoplay]}
-          autoplay={{ delay: 2000 }}
+          autoplay={{ delay: 1200 }}
           spaceBetween={30}
         >
           <SwiperSlide>
